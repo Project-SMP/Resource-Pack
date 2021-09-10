@@ -14,10 +14,10 @@ jobs:
       with:
         type: 'zip'
         filename: 'pack.zip'
-        exclusions: '*.md* /*index.html*'
+        exclusions: '*.md* /*index.html*/*.git*/*.github*'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
         artifacts: "pack.zip"
-        tag: resource-pack-${{ env.commitmsg }}
+        tag: rp-${{ env.commitmsg }}
         token: ${{ secrets.GITHUB_TOKEN }}
