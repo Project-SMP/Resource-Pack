@@ -15,5 +15,5 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "pack.zip"
-        tag: resource-pack ${{ github.event.head_commit }}
+        tag: resource-pack-${{ github.event.head_commit }}
         token: ${{ secrets.GITHUB_TOKEN }}
