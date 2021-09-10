@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: get commit message
         run: |
-            echo Commit MSG = ${{ env.commitmsg }}
+          echo Commit MSG = ${{ env.commitmsg }}
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@master
