@@ -13,3 +13,8 @@ jobs:
         type: 'zip'
         filename: 'pack.zip'
         exclusions: '*.md* /*index.html*'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "release.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
