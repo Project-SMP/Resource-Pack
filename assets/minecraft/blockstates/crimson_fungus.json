@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/crimson_fungus",
+        "weight": 250
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_1",
+        "weight": 500
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_1",
+        "weight": 250,
+        "y": 90
+      }
+    ]
+  }
+}

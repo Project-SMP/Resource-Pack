@@ -1,0 +1,45 @@
+{
+	"credit": "Made by Botany",
+	"textures": {
+		"1": "block/dripstone_block",
+		"particle": "block/pointed_dripstone_up_middle"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 7, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"east": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"south": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"west": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 9, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"east": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"south": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"west": {"uv": [0, 0, 12, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 7, 3],
+			"to": [13, 9, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 10, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 10, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 10, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#missing"},
+				"down": {"uv": [0, 0, 10, 10], "texture": "#missing"}
+			}
+		}
+	]
+}

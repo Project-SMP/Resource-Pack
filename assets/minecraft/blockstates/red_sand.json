@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/red_sand",
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 90,
+        "weight": 700
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 180,
+        "weight": 700
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 270,
+        "weight": 700
+      },
+      {
+        "model": "minecraft:block/red_sand_1",
+        "weight": 1250
+      },
+      {
+        "model": "minecraft:block/red_sand_2",
+        "weight": 700
+      }
+    ]
+  }
+}

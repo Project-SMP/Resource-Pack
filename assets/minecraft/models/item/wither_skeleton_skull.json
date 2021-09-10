@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/template_skull","overrides":[{"predicate":{"custom_model_data":2200259},"model":"slimefun:item/raulh22/slimefun/slimefun/magical_items/necrotic_skull"},{"predicate":{"custom_model_data":2200260},"model":"minecraft:item/wither_skeleton_skull"}]}

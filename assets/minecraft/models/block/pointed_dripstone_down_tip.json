@@ -1,0 +1,57 @@
+{
+	"credit": "Made by Botany",
+	"textures": {
+		"1": "block/dripstone_block",
+		"particle": "block/pointed_dripstone_up_tip"
+	},
+	"elements": [
+		{
+			"from": [5, 9, 5],
+			"to": [11, 12, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 6, 3], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 6, 3], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 6, 3], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#1"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 4, 6],
+			"to": [10, 9, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 4], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 4], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 4], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 12, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#1"}
+			}
+		}
+	]
+}

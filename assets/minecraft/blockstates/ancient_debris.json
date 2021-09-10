@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/ancient_debris_1" },
+			{ "model": "block/ancient_debris_1" },
+			{ "model": "block/ancient_debris_2" },
+			{ "model": "block/ancient_debris_3" },
+			{ "model": "block/ancient_debris_4" },
+			{ "model": "block/ancient_debris_5" },
+			{ "model": "block/ancient_debris_1" }
+        ]
+    }
+}

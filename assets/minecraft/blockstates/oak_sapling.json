@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/oak_sapling",
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/oak_sapling",
+        "y": 90,
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/oak_sapling",
+        "y": 180,
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/oak_sapling_acorn",
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/oak_sapling_acorn",
+        "y": 90,
+        "weight": 1000
+      },
+      {
+        "model": "minecraft:block/oak_sapling_acorn",
+        "y": 180,
+        "weight": 1000
+      }
+    ]
+  }
+}

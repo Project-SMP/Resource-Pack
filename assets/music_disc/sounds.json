@@ -1,0 +1,22 @@
+{
+  "music_disc.lunar_rainbow": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music_disc:music_disc/lunar_rainbow",
+        "volume": 4,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.starry_sky": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music_disc:music_disc/starry_sky",
+        "volume": 4,
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ui.menu.close": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "psmp:menu_close"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/sand"
+      },
+      {
+        "model": "minecraft:block/sand",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/sand",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/sand",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/sand_1"
+      },
+      {
+        "model": "minecraft:block/sand_1",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/sand_2"
+      },
+      {
+        "model": "minecraft:block/sand_2",
+        "y": 90
+      }
+    ]
+  }
+}

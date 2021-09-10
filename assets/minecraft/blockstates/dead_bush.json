@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+	  { "model": "minecraft:block/dead_bush" },
+	  { "model": "minecraft:block/dead_bush_1" },
+	  { "model": "minecraft:block/dead_bush_2" },
+	  { "model": "minecraft:block/dead_bush_3" },
+	  { "model": "minecraft:block/dead_bush_4" },
+	  { "model": "minecraft:block/dead_bush_5" },
+	  { "model": "minecraft:block/dead_bush_6" },
+	  { "model": "minecraft:block/dead_bush_7" }
+    ]
+  }
+}

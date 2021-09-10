@@ -1,0 +1,67 @@
+{
+  "variants": {
+        "axis=x": [
+
+            {
+              "model": "minecraft:block/acacia_log_horizontal",
+              "x": 90,
+              "y": 90
+            },
+            {
+              "model": "minecraft:block/acacia_log_1_horizontal",
+              "x": 90,
+              "y": 90
+            },
+            {
+              "model": "minecraft:block/acacia_log_2_horizontal",
+              "x": 90,
+              "y": 90
+            },
+            {
+              "model": "minecraft:block/acacia_log_3_horizontal",
+              "x": 90,
+              "y": 90
+            }
+
+        ],
+        "axis=y": [
+
+            {
+              "model": "minecraft:block/acacia_log",
+              "weight": 1000
+            },
+            {
+              "model": "minecraft:block/acacia_log_1",
+              "weight": 600
+            },
+            {
+              "model": "minecraft:block/acacia_log_2",
+              "weight": 600
+            },
+            {
+              "model": "minecraft:block/acacia_log_3",
+              "weight": 100
+            }
+
+        ],
+        "axis=z": [
+          {
+            "model": "minecraft:block/acacia_log_horizontal",
+            "x": 90
+          },
+          {
+            "model": "minecraft:block/acacia_log_1_horizontal",
+            "x": 90
+          },
+          {
+            "model": "minecraft:block/acacia_log_2_horizontal",
+            "x": 90
+          },
+          {
+            "model": "minecraft:block/acacia_log_3_horizontal",
+            "x":90
+          }
+
+        ]
+    }
+}
