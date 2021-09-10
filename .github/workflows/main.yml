@@ -15,7 +15,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'pack.zip'
-        exclusions: '*.md* /*index.html*/*.git*/*.github*'
+        exclusions: '*.git* /*.github* /*.git* /*.html* /*.md*'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
