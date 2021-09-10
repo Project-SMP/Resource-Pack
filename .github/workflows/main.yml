@@ -3,22 +3,21 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
     env:
       commitmsg: ${{ github.event.head_commit.message }}
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - uses: actions/checkout@master
-      - name: Archive Release
-        uses: thedoctor0/zip-release@master
-        with:
-          type: 'zip'
-          filename: 'pack.zip'
-          exclusions: '*.md* /*index.html*'
-      - name: Upload Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "pack.zip"
-          tag: resource-pack-${{ env.commitmsg }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: checkout
+      uses: actions/checkout@v2
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        type: 'zip'
+        filename: 'pack.zip'
+        exclusions: '*.md* /*index.html*'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "pack.zip"
+        tag: resource-pack-${{ env.commitmsg }}
+        token: ${{ secrets.GITHUB_TOKEN }}
