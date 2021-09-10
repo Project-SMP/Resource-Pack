@@ -4,7 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      commitmsg: ${{ github.sha }}
+      commit: ${{ github.sha }}
+      commitmsg: ${{ github.event.head_commit.message }}
     steps:
     - name: checkout
       uses: actions/checkout@v2
@@ -19,5 +20,6 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "pack.zip"
-        tag: rp-${{ env.commitmsg }}
+        tag: rp-${{ env.commit }}
+        name: ${{ env.commit }}
         token: ${{ secrets.GITHUB_TOKEN }}
