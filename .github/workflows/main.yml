@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Create Archive
 on: [push]
 jobs:
@@ -7,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Zip Release
+    - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
         type: 'zip'
