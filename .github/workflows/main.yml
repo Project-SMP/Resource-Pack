@@ -9,19 +9,16 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: get commit message
-        run: |
-          echo Commit MSG = ${{ env.commitmsg }}
-    - uses: actions/checkout@master
-    - name: Archive Release
-      uses: thedoctor0/zip-release@master
-      with:
-        type: 'zip'
-        filename: 'pack.zip'
-        exclusions: '*.md* /*index.html*'
-    - name: Upload Release
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "pack.zip"
-        tag: resource-pack-${{ env.commitmsg }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@master
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          type: 'zip'
+          filename: 'pack.zip'
+          exclusions: '*.md* /*index.html*'
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "pack.zip"
+          tag: resource-pack-${{ env.commitmsg }}
+          token: ${{ secrets.GITHUB_TOKEN }}
