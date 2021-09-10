@@ -15,10 +15,5 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "pack.zip"
-        tag: resource-pack
+        tag: resource-pack ${{ github.event.head_commit }}
         token: ${{ secrets.GITHUB_TOKEN }}
-    - uses: dev-drprasad/delete-tag-and-release@v0.2.0
-      with:
-        tag_name: resource-pack
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
