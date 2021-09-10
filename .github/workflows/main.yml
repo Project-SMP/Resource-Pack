@@ -4,6 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    env:
+      commitmsg: ${{ github.event.head_commit.message }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: get commit message
+        run: |
+            echo Commit MSG = ${{ env.commitmsg }}
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@master
@@ -15,5 +23,5 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "pack.zip"
-        tag: resource-pack-${{ github.event.head_commit.message }}
+        tag: resource-pack-${{ env.commitmsg }}
         token: ${{ secrets.GITHUB_TOKEN }}
