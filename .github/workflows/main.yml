@@ -21,5 +21,5 @@ jobs:
       with:
         artifacts: "pack.zip"
         tag: rp-${{ env.commit }}
-        name: ${{ env.commit }}
+        name: ${{ env.commitmsg }}
         token: ${{ secrets.GITHUB_TOKEN }}
