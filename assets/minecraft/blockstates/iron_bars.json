@@ -1,0 +1,212 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/iron_bars_post_ends"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "false",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_post"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "false",
+        "east": "false",
+        "south": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "false",
+        "east": "true",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+		"waterlogged": "false",
+        "model": "minecraft:block/iron_bars_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "false",
+        "east": "false",
+        "south": "true",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap_alt"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "true",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "south": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side_alt"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side_alt",
+        "y": 90
+      }
+    },
+	
+	{
+      "when": {
+		"waterlogged": "true",
+        "west": "false",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_post"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "west": "false",
+        "east": "false",
+        "south": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_cap"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "west": "false",
+        "east": "true",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+		"waterlogged": "true",
+        "model": "minecraft:block/waterlogged_iron_bars_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "west": "false",
+        "east": "false",
+        "south": "true",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_cap_alt"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "west": "true",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_cap_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_side"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "south": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_side_alt"
+      }
+    },
+    {
+      "when": {
+		"waterlogged": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/waterlogged_iron_bars_side_alt",
+        "y": 90
+      }
+    }
+  ]
+}
