@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/creeper_head"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/creeper_head"}}}

@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/crimson_fungus"
-  }
-}
+{"parent":"minecraft:block/flower_pot_cross","textures":{"plant":"minecraft:block/crimson_fungus"}}

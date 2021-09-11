@@ -1,5 +1,1 @@
-{
-  "textures": {
-    "particle": "minecraft:block/warped_planks"
-  }
-}
+{"textures":{"particle":"minecraft:block/warped_planks"}}

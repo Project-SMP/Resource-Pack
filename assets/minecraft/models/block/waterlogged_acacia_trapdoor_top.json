@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "minecraft:block/waterlogged_acacia_trapdoor"
-  }
-}
+{"parent":"minecraft:block/template_orientable_trapdoor_top","textures":{"texture":"minecraft:block/waterlogged_acacia_trapdoor"}}

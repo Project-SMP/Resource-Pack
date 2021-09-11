@@ -1,15 +1,1 @@
-{
-  "variants": {
-    "": [
-      {
-        "model": "minecraft:block/cobblestone"
-      },
-      {
-        "model": "minecraft:block/cobblestone_1"
-      },
-      {
-        "model": "minecraft:block/cobblestone_2"
-      }
-    ]
-  }
-}
+{"variants":{"":[{"model":"minecraft:block/cobblestone"},{"model":"minecraft:block/cobblestone_1"},{"model":"minecraft:block/cobblestone_2"}]}}

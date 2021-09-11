@@ -1,6 +1,1 @@
-{
-	"parent": "block/tinted_cross",
-	"textures": {
-		"cross": "block/variated/fern/1"
-	}
-}
+{"parent":"block/tinted_cross","textures":{"cross":"block/variated/fern/1"}}

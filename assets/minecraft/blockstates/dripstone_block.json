@@ -1,14 +1,1 @@
-{
-  "variants": {
-    "": [
-      {
-        "model": "minecraft:block/dripstone_block",
-        "weight": 2000
-      },
-      {
-        "model": "minecraft:block/dripstone_block_1",
-        "weight": 1500
-      }
-    ]
-  }
-}
+{"variants":{"":[{"model":"minecraft:block/dripstone_block","weight":2e3},{"model":"minecraft:block/dripstone_block_1","weight":1500}]}}

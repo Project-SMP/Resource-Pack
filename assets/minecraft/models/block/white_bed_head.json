@@ -1,5 +1,1 @@
-{
-  "textures": {
-    "particle": "minecraft:block_particle/white_bed_head"
-  }
-}
+{"textures":{"particle":"minecraft:block_particle/white_bed_head"}}

@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:block/stone_bricks",
-  "textures": {
-    "all": "minecraft:block/stone_bricks_2"
-  }
-}
+{"parent":"minecraft:block/stone_bricks","textures":{"all":"minecraft:block/stone_bricks_2"}}

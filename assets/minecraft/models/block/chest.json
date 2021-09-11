@@ -1,6 +1,1 @@
-{
-    "textures": {
-        "particle": "block_particle/chest"
-    }
-}
-
+{"textures":{"particle":"block_particle/chest"}}

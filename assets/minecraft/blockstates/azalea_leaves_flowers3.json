@@ -1,6 +1,1 @@
-{
-    "parent":"block/leaves3",
-    "textures": {
-        "0":"block/azalea_leaves_flowers"
-    }
-}
+{"parent":"block/leaves3","textures":{"0":"block/azalea_leaves_flowers"}}

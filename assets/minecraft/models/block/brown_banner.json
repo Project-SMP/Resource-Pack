@@ -1,5 +1,1 @@
-{
-  "textures": {
-    "particle": "minecraft:block_particle/brown_banner"
-  }
-}
+{"textures":{"particle":"minecraft:block_particle/brown_banner"}}

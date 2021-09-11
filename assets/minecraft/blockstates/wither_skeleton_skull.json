@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/wither_skeleton_skull"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/wither_skeleton_skull"}}}

@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/rose_bush_top_6"
-  }
-}
+{"parent":"minecraft:block/cross","textures":{"cross":"minecraft:block/rose_bush_top_6"}}

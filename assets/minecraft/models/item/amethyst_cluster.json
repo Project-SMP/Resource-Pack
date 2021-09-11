@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/amethyst_cluster"
-  }
-}
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/amethyst_cluster"}}

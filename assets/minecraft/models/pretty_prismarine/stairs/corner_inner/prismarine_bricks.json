@@ -1,6 +1,1 @@
-{
-	"parent": "pretty_prismarine/template_stairs/corner_inner",
-	"textures": {
-		"texture": "pretty_prismarine/prismarine_bricks"
-	}
-}
+{"parent":"pretty_prismarine/template_stairs/corner_inner","textures":{"texture":"pretty_prismarine/prismarine_bricks"}}

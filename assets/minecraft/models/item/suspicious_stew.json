@@ -1,7 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-	"particle": "minecraft:item_particle/suspicious_stew",  
-    "layer0": "minecraft:item/suspicious_stew"
-  }
-}
+{"parent":"minecraft:item/generated","textures":{"particle":"minecraft:item_particle/suspicious_stew","layer0":"minecraft:item/suspicious_stew"}}

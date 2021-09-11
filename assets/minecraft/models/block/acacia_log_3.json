@@ -1,10 +1,1 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/acacia_log_top_1",
-    "north": "minecraft:block/acacia_log_3",
-    "south": "minecraft:block/acacia_log",
-    "east": "minecraft:block/acacia_log",
-    "west": "minecraft:block/acacia_log"
-  }
-}
+{"parent":"minecraft:block/cube_column","textures":{"end":"minecraft:block/acacia_log_top_1","north":"minecraft:block/acacia_log_3","south":"minecraft:block/acacia_log","east":"minecraft:block/acacia_log","west":"minecraft:block/acacia_log"}}

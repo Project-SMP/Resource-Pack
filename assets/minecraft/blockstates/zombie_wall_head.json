@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/zombie_head"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/zombie_head"}}}

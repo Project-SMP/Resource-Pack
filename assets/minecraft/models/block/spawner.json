@@ -1,7 +1,1 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "block/spawner",
-		"particle": "item/base/blank"
-    }
-}
+{"parent":"block/cube_all","textures":{"all":"block/spawner","particle":"item/base/blank"}}

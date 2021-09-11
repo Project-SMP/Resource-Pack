@@ -1,18 +1,1 @@
-{
-  "variants": {
-      "": [
-      {
-        "model": "minecraft:block/diorite",
-        "weight": 3000
-      },
-      {
-        "model": "minecraft:block/diorite_1",
-        "weight": 1500
-      },
-      {
-        "model": "minecraft:block/diorite_2",
-        "weight": 500
-      }
-    ]
-  }
-}
+{"variants":{"":[{"model":"minecraft:block/diorite","weight":3e3},{"model":"minecraft:block/diorite_1","weight":1500},{"model":"minecraft:block/diorite_2","weight":500}]}}

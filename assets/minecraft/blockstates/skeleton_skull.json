@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/skeleton_skull"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/skeleton_skull"}}}

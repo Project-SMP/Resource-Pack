@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/dragon_head"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/dragon_head"}}}

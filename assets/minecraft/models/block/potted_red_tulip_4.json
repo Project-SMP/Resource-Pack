@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/red_tulip_4"
-  }
-}
+{"parent":"minecraft:block/flower_pot_cross","textures":{"plant":"minecraft:block/red_tulip_4"}}

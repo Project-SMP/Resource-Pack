@@ -1,7 +1,1 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "block/planks_oak",
-        "side": "block/bookshelf124"
-    }
-}
+{"parent":"block/cube_column","textures":{"end":"block/planks_oak","side":"block/bookshelf124"}}

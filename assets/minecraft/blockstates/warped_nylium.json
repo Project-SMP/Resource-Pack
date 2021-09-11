@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/warped_nylium"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/warped_nylium"}}}

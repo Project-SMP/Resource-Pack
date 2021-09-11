@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/flowering_azalea"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/flowering_azalea"}}}

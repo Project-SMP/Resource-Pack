@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/light_blue_banner"
-    }
-  }
-}
+{"variants":{"":{"model":"minecraft:block/light_blue_banner"}}}

@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/brain_coral"
-  }
-}
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/brain_coral"}}

@@ -1,18 +1,1 @@
-{
-  "variants": {
-    "": [
-      {
-        "model": "minecraft:block/bricks",
-        "weight": 1400
-      },
-      {
-        "model": "minecraft:block/bricks_1",
-        "weight": 800
-      },
-      {
-        "model": "minecraft:block/bricks_2",
-        "weight": 600
-      }
-    ]
-  }
-}
+{"variants":{"":[{"model":"minecraft:block/bricks","weight":1400},{"model":"minecraft:block/bricks_1","weight":800},{"model":"minecraft:block/bricks_2","weight":600}]}}

@@ -1,7 +1,1 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "block/ancient_debris_side_5",
-        "side": "block/ancient_debris_side_5"
-    }
-}
+{"parent":"block/cube_column","textures":{"end":"block/ancient_debris_side_5","side":"block/ancient_debris_side_5"}}
