@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/thin_block",
 	"textures": {
-		"1": "block/snow+",
-		"2": "block/snow++",
-		"particle": "block/snow",
-		"texture": "block/snow"
+		"1": "minecraft:block/snowplus",
+		"2": "minecraft:block/snowplusplus",
+		"particle": "minecraft:block/snow",
+		"texture": "minecraft:block/snow"
 	},
 	"elements": [
 		{
